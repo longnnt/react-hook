@@ -79,7 +79,6 @@
  return (
    <div className="App">
      <input type="text" placeholder="add something" ref={inputElement} />
-     {console.log("re-render")}
      <button onClick={handleFocus}>Focus</button>
    </div>
  );
