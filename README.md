@@ -70,6 +70,21 @@
 
 [useRef truy cập vào DOM element example](https://codesandbox.io/s/useref-xcmzbd?file=/src/App.js) in codesandbox
 
+```
+ const inputElement = useRef();
+
+ const handleFocus = () => {
+   inputElement && inputElement.current.focus();
+ };
+ return (
+   <div className="App">
+     <input type="text" placeholder="add something" ref={inputElement} />
+     {console.log("re-render")}
+     <button onClick={handleFocus}>Focus</button>
+   </div>
+ );
+```
+
 2. Lưu tham chiếu qua mỗi lần re-render
 
 [useRef example](https://codesandbox.io/s/useref-re-render-7ic9xb?file=/src/App.js)
