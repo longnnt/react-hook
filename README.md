@@ -88,3 +88,33 @@
 2. Lưu tham chiếu qua mỗi lần re-render
 
 [useRef example](https://codesandbox.io/s/useref-re-render-7ic9xb?file=/src/App.js)
+
+```
+ const [count, setCount] = useState(60);
+
+ const timerID = useRef();
+
+ const handleStart = () => {
+
+   timerID.current = setInterval(() => {
+     setCount((prev) => prev - 1);
+   }, 1000);
+
+   console.log(timerID.current);
+
+ };
+
+ const handleStop = () => {
+   console.log(timerID.current);
+
+   clearInterval(timerID.current);
+ };
+
+ return (
+   <div className="App">
+     <h1>{count}</h1>
+     <button onClick={handleStart}>Start</button>
+     <button onClick={handleStop}>Stop</button>
+   </div>
+ );
+```
