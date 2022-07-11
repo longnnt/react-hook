@@ -84,7 +84,7 @@
  );
 ```
 
-2. Lưu tham chiếu qua mỗi lần re-render
+2. Lưu tham chiếu qua mỗi lần re-render (Đồng hồ đếm ngược bắt đầu và dừng lại)
 
 [useRef example](https://codesandbox.io/s/useref-re-render-7ic9xb?file=/src/App.js)
 
