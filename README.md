@@ -7,5 +7,4 @@ Cho phép thêm trạng thái vào một function component
 
 ```reactjs
  import { useState } from "react";
-  
 ```
