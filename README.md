@@ -32,7 +32,7 @@
 ```
 
 ## #useEffect
-1. Cho phép xử lý những thành phàn side effect. VD như call API, setTimeout, setInterval hay là tương tác với trình duyệt...
+1. Cho phép xử lý những thành phần side effect. VD như call API, setTimeout, setInterval hay là tương tác với trình duyệt...
 2. useEffect nhận đối số đầu vào là một callback
 3. callback function của cả 3 trường hợp useEffect được gọi ***sau*** khi component được mount lần đầu tiên vào trong DOM
 4. Có 3 trường hợp useEffect khi truyền đối số thứ hai hoặc không truyền
