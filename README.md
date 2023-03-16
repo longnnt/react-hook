@@ -124,6 +124,8 @@
  );
 ```
 
+## ReactJS vs Javascript
+
 1. What is features of ReactJS ?
 
 - JSX (Javascript + XML) : Cú pháp mở rộng của Javascript
@@ -142,7 +144,8 @@
 - Exports vs Export
 - Class and Function component
 
-4. Arrow function is short way of writing function in React ( Arrow function dont have bind ‘this’
+4. Arrow function is short way of writing function in React ( Arrow function dont have bind ‘this’ )
+
 5. What is state in React?
 
 - Là built in React Object chứa trạng thái hoặc thông tin của component
@@ -165,6 +168,8 @@
   - Render
   - ComponentDidMount ( when component mount in first time, React will call ComponentDidMount() )
 - Part 2: Update Component
+  - ComponentWillUpdate()
+  - ComponentDidUpdate()
 - Part 3: Component Unmounting
   - ComponentWillUnmount()
 
@@ -172,3 +177,44 @@
 
 - The data change in a view has updated the state
 - The data in state updated has updated the view
+
+10.
+
+- Async : make function return a promise
+- Await : make function wait for a promise
+
+11. Closure function
+12. Pure function
+13. How many type of constructor ?
+
+- default: dont have parameter
+- parameted
+- copy constructor (it gap)
+
+14. Interface
+
+- La mot kieu
+- Giong voi class, nhung interface khong implement cac phuong thuc (khong co phan noi dung)
+- Khong co constuctor va cung khong co destructor
+- Dung de dinh nghia mot khuon mau hoac quy tac chung
+
+15. Hoisting : move declarations to the top of current scope
+
+- JS only hoists declaration, not initialization \*
+
+```
+  // let : result is Reference Error
+  carName = 'Volvo'
+  let carName;
+
+  // const : this code will not run
+  carName = 'Volvo'
+  const carName;
+```
+
+## CSS
+
+1.  Block element vs Inline element
+
+- Block element : div , p, li, table, ...
+- Inline element: span, a , img, input, button
