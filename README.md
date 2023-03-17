@@ -126,7 +126,35 @@
 
 ## ReactJS vs Javascript
 
-1. What is features of ReactJS ?
+1.What are sematic tags
+2.Position relative and postion absolute
+3.What is flexbox
+4.What is boxModel
+5.What is Eventloop
+6.What is DOM
+7.What is Hoisting
+8.What is closure
+9.What is Callback Hell
+10.How many argument hold Promise
+11.What is Map, Filter And Reduce
+12.How many scopes are in Javascript
+13.What is Call,Apply and Bind
+14.What is This Keyword
+15.What is Diffrence b/w Normal function & Arrow Function
+16.What is Memoization
+17.What is spread Operator and Rest Operator
+18.O/p question (spread operator with object)
+19.O/p Question (Based on Promise)
+20 .O/P Quesiton (Based on In and Of)
+21.What is virtual DOM 
+22.Advantage of ReactJs
+23.What is one-way DataBinding 
+24.How Redux work
+25.What is Higher Order Component
+26.Lifecycle Method of Reactjs
+27.How do you handle lifecycle method in functional component 
+
+28. What is features of ReactJS ?
 
 - JSX (Javascript + XML) : Cú pháp mở rộng của Javascript
 - Component: tạo ra các khối trong app
@@ -134,34 +162,34 @@
 - One-way-data-binding
 - High Performance: Only update component change instead all at once in app
 
-2. Can web browser read directly JSX ? (Cannot read directly)
+29. Can web browser read directly JSX ? (Cannot read directly)
 
 - Transformed into regular Javascript Object using Babel
 
-3. ES5 vs ES6
+30. ES5 vs ES6
 
 - Require vs Import
 - Exports vs Export
 - Class and Function component
 
-4. Arrow function is short way of writing function in React ( Arrow function dont have bind ‘this’ )
+31. Arrow function is short way of writing function in React ( Arrow function dont have bind ‘this’ )
 
-5. What is state in React?
+32. What is state in React?
 
 - Là built in React Object chứa trạng thái hoặc thông tin của component
 - When state change, component re-render (using setState)
 
-6. What is props in React?
+33. What is props in React?
 
 - Props : React built in object (properties) chứa giá trị thuộc tính của tag và hoạt động tương tự như HTML attribute
 - Props cung cấp cách để pass value đến component khác
 
-7. What difference State and Props ?
+34. What difference State and Props ?
 
 - Props không thể thay đổi ( state có thể thay đổi khi dùng useState )
 - Props is read only ( state changes is asynchronous )
 
-8. Life Cycle
+35. Life Cycle
 
 - Part 1: The creation
   - Constructor
@@ -173,32 +201,32 @@
 - Part 3: Component Unmounting
   - ComponentWillUnmount()
 
-9. Two way binding (React is one way binding)
+36. Two way binding (React is one way binding)
 
 - The data change in a view has updated the state
 - The data in state updated has updated the view
 
-10.
+37.
 
 - Async : make function return a promise
 - Await : make function wait for a promise
 
-11. Closure function
-12. Pure function
-13. How many type of constructor ?
+38. Closure function
+39. Pure function
+40. How many type of constructor ?
 
 - default: dont have parameter
 - parameted
 - copy constructor (it gap)
 
-14. Interface
+41. Interface
 
 - La mot kieu
 - Giong voi class, nhung interface khong implement cac phuong thuc (khong co phan noi dung)
 - Khong co constuctor va cung khong co destructor
 - Dung de dinh nghia mot khuon mau hoac quy tac chung
 
-15. Hoisting : move declarations to the top of current scope
+42. Hoisting : move declarations to the top of current scope
 
 - JS only hoists declaration, not initialization \*
 
