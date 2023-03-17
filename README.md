@@ -132,10 +132,28 @@
 - using for layout
 - have flex containter and flex items
 - flex container have main axis (x) and cross axis(y)
-4. What is boxModel
+- use justify-content for main axis
+- use align-items for cross axis
+4. What is boxModel 
+- margin
+- padding
+- content
+- border
 5. What is Eventloop
+- if else
+- while
+- do while
 6. What is DOM
+- Document Object Model
+- Có các node là các element
+- Có dạng cây cấu trúc dữ liệu
+- Node gốc: thẻ html
+- Node element: biểu diễn cho 1 phần tử html
+- Node văn bản: như các kí tự trong html
+- Attribute node vs Comment Node
 7. What is Hoisting
+- Declare variable hosted at the top of scope 
+- Only hoisted not initial
 8. What is closure
 9. What is Callback Hell
 10. How many argument hold Promise
