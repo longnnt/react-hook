@@ -126,36 +126,36 @@
 
 ## ReactJS vs Javascript
 
-1.What are sematic tags
-2.Position relative and postion absolute
-3.What is flexbox
+1. What are sematic tags
+2. Position relative and postion absolute
+3. What is flexbox
 - using for layout
 - have flex containter and flex items
-- flex container have main axis (x) and cross axis(y) 
-4.What is boxModel
-5.What is Eventloop
-6.What is DOM
-7.What is Hoisting
-8.What is closure
-9.What is Callback Hell
-10.How many argument hold Promise
-11.What is Map, Filter And Reduce
-12.How many scopes are in Javascript
-13.What is Call,Apply and Bind
-14.What is This Keyword
-15.What is Diffrence b/w Normal function & Arrow Function
-16.What is Memoization
-17.What is spread Operator and Rest Operator
-18.O/p question (spread operator with object)
-19.O/p Question (Based on Promise)
+- flex container have main axis (x) and cross axis(y)
+4. What is boxModel
+5. What is Eventloop
+6. What is DOM
+7. What is Hoisting
+8. What is closure
+9. What is Callback Hell
+10. How many argument hold Promise
+11. What is Map, Filter And Reduce
+12. How many scopes are in Javascript
+13. What is Call,Apply and Bind
+14. What is This Keyword
+15. What is Diffrence b/w Normal function & Arrow Function
+16. What is Memoization
+17. What is spread Operator and Rest Operator
+18. O/p question (spread operator with object)
+19. O/p Question (Based on Promise)
 20 .O/P Quesiton (Based on In and Of)
-21.What is virtual DOM 
-22.Advantage of ReactJs
-23.What is one-way DataBinding 
-24.How Redux work
-25.What is Higher Order Component
-26.Lifecycle Method of Reactjs
-27.How do you handle lifecycle method in functional component 
+21. What is virtual DOM 
+22. Advantage of ReactJs
+23. What is one-way DataBinding 
+24. How Redux work
+25. What is Higher Order Component
+26. Lifecycle Method of Reactjs
+27. How do you handle lifecycle method in functional component 
 
 28. What is features of ReactJS ?
 
