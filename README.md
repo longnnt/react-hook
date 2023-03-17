@@ -129,6 +129,9 @@
 1.What are sematic tags
 2.Position relative and postion absolute
 3.What is flexbox
+- using for layout
+- have flex containter and flex items
+- flex container have main axis (x) and cross axis(y) 
 4.What is boxModel
 5.What is Eventloop
 6.What is DOM
