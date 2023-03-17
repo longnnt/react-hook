@@ -160,7 +160,39 @@
 11. What is Map, Filter And Reduce
 12. How many scopes are in Javascript
 13. What is Call,Apply and Bind
-14. What is This Keyword
+14. What is This Keyword ? 
+- Từ khóa 'This' trả về đối tượng mà nó thuộc về
+- This tham chiếu tới đối tượng truy cập phương thức
+```
+ const myPhone = {
+  // properties
+  name: 'Honor play',
+  age : 3,
+  
+  // method
+  takePhoto() {
+   console.log(this)
+  }
+ }
+ 
+ myPhone.takePhoto() // result is object myPhone
+```
+- Đứng ngoài phương thức, This tham chiếu tới đối tượng window 
+```
+ console.log(this) // Object window trên trình duyệt
+ // trong strict mode thì result sẽ là undefined
+```
+
+- This trong hàm constructor đại diện cho đối tượng sẽ được tạo ra
+- This trong hàm trả ra đối tượng window
+
+```
+ function test() {
+  console.log(this)
+ }
+ 
+ test() // Object window
+```
 15. What is Diffrence b/w Normal function & Arrow Function
 16. What is Memoization
 17. What is spread Operator and Rest Operator
